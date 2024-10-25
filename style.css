@@ -1,0 +1,12 @@
+h1,
+h2 {
+  text-align: center;
+}
+
+* {
+  margin: 10px;
+}
+
+date {
+  text-align: end;
+}
