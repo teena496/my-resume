@@ -3,118 +3,190 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <title>My Resume</title>
+    <title>Teena Elsa Thomas - Resume</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 2rem;
+        background-color: #f9f9f9;
+        color: #333;
+      }
+      h1,
+      h2,
+      h3 {
+        color: #004080;
+      }
+      a {
+        color: #0066cc;
+        text-decoration: none;
+      }
+      .section {
+        margin-bottom: 2rem;
+      }
+      .section ul {
+        list-style: disc;
+        margin-left: 1.5rem;
+      }
+      .contact {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-top: 0.5rem;
+      }
+      .contact span {
+        margin-right: 1rem;
+      }
+      .job-title {
+        font-weight: bold;
+      }
+      .job-duration {
+        font-style: italic;
+        color: #666;
+      }
+      .resume-container {
+        max-width: 900px;
+        margin: auto;
+        background: #fff;
+        padding: 2rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+    </style>
   </head>
   <body>
-    <h1>Teena Elsa Thomas</h1>
-    <h2>Software Developer</h2>
-    <h3>SUMMARY</h3>
-    <p>
-      Dedicated Software Engineer with 3 years of experience in web development,
-      specializing in modern JavaScript stacks. Proven expertise in building
-      dynamic web applications, optimizing RESTful APIs, and leveraging Agile
-      methodologies with CI/CD practices. Strong problem-solving skills and a
-      passion for continuous learning.
-    </p>
-    <h3>TECHNICAL SKILLS</h3>
-    <ul>
-      <li>
-        Frontend: React.js (Redux, Flux, MobX architectures), JavaScript,
-        TypeScript, HTML5, CSS3, Material-UI
-      </li>
-      <li>
-        Backend: C#, .NET Core, ASP.NET MVC, Web API, RESTful APIs, MS SQL
-        Server, MongoDB
-      </li>
-      <li>DevOps and CI/CD: Azure DevOps, Git, GitHub, GitLab, SVN, Docker</li>
-      <li>
-        Testing and Debugging: Jest, React Testing Library, Chrome Developer
-        Console, Visual Studio Debugger
-      </li>
-      <li>
-        Additional Skills: Agile Methodologies, Cross-functional Collaboration,
-        Code Quality, Continuous Learning
-      </li>
-    </ul>
+    <div class="resume-container">
+      <h1>Teena Elsa Thomas</h1>
+      <p>Software Engineer</p>
+      <div class="contact">
+        <span>📍 Scarborough, ON</span>
+        <span>📞 (647) 612-0549</span>
+        <span
+          >✉️
+          <a href="mailto:teena496@outlook.com">teena496@outlook.com</a></span
+        >
+        <span
+          >🔗
+          <a href="https://github.com/teena496" target="_blank">GitHub</a></span
+        >
+        <span
+          >🔗
+          <a href="https://linkedin.com/in/teena496" target="_blank"
+            >LinkedIn</a
+          ></span
+        >
+      </div>
 
-    <h3>WORK EXPERIENCE</h3>
-    <h4>
-      Software Developer, Quest Global Services Pvt Ltd, India
-      <date>June 2021 - June 2022</date>
-    </h4>
-    <ul>
-      <li>
-        Developed dynamic web applications with React JS and MobX, and optimized
-        RESTful APIs using JavaSpring Boot.
-      </li>
-      <li>
-        Designed consistent UIs with Material UI, stored and queried data
-        efficiently with MongoDB, and created interactive visualizations with
-        Plotly JS and Pixi JS.
-      </li>
-      <li>
-        Engaged in Agile Scrum practices, contributing to a 50% improvement in
-        sprint completion rates.
-      </li>
-      <li>
-        Managed source code with GitLab and SVN, and contributed to project
-        management with Azure DevOps.
-      </li>
-      <li>
-        Enhanced software quality through code reviews and internal
-        documentation, decreasing bug reports by 35%.
-      </li>
-    </ul>
-    <h4>Project</h4>
-    <p>
-      Hitachi Hi-Tech Defect Visualizer: Developed and maintained a
-      semiconductor wafer defect analysis and visualization tool using
-      React-MobX architecture, Material-UI, Java, and MongoDB.
-    </p>
-    <h4>
-      Software Engineer, RM Education Solutions India Pvt Ltd, India
-      <date>July 2018 - Dec 2020</date>
-    </h4>
-    <ul>
-      <li>
-        Developed front-end applications with React JS (Flux), ensuring seamless
-        user experiences and responsive design.
-      </li>
-      <li>
-        Created robust backend services with C# and .NET, and managed data
-        integration using SSIS and SSAS for optimized decision-making.
-      </li>
-      <li>
-        Maintained code quality using Microsoft Visual Studio, decreasing code
-        review turnaround time by 20%.
-      </li>
-      <li>
-        Utilized Azure DevOps for project management, code collaboration, and
-        version control, enhancing team coordination and efficiency by 35%.
-      </li>
-    </ul>
-    <h4>Projects</h4>
-    <p>
-      RM Assessor 3: Developed and maintained an e-marking platform for
-      universities worldwide, utilizing React-Flux architecture, C#, .Net Core,
-      and MS SQL Server.
-    </p>
-    <p>
-      RM Assessor Data Manager: Developed and maintained the data management
-      tool for the Assessor using React-Flux architecture, C#, .Net framework,
-      and MS SQL Server.
-    </p>
-    <h3>EDUCATION AND PROFESSIONAL DEVELOPMENT</h3>
-    <h4>Women in Technology Program <date>Present</date></h4>
-    <p>ACCES Employment, IBM / TD Bank, Ontario</p>
-    <h4>
-      Bachelor of Technology in Computer Science and Engineering
-      <date>2018</date>
-    </h4>
-    <p>
-      Mahatma Gandhi University, India (Assessed as equivalent to Bachelor’s
-      Degree by WES)
-    </p>
+      <div class="section">
+        <h2>Technical Skills</h2>
+        <p>
+          <strong>Languages & Frameworks:</strong> React.js, JavaScript,
+          TypeScript, HTML5, CSS3, Material-UI, C#, .NET Core, Java, Spring
+          Boot, SQL, Python (Pandas, Numpy, Matplotlib, Plotly, Dash, Scikit
+          learn)
+        </p>
+        <p><strong>Operating Systems:</strong> Windows, MacOS</p>
+        <p>
+          <strong>Software, Application & Tools:</strong> IBM Watson Studio, IBM
+          Cognos Analytics, Jupyter Notebook, Google Collab, Microsoft Office,
+          Advanced Excel, Azure Sandbox, RDMS, SQLite, MySQL, MS SQL Server,
+          PostgreSQL, MongoDB, Git, GitHub
+        </p>
+        <p><strong>Cloud Computing:</strong> Microsoft Azure, IBM Cloud</p>
+        <p>
+          <strong>Project Management:</strong> Agile, Waterfall, Scrum, Kanban,
+          Trello
+        </p>
+        <p>
+          <strong>Skills:</strong> Data Wrangling and Pre-Processing, Data
+          Cleaning, Data visualization and Dashboarding, Statistical analysis,
+          Linear regression, Data prediction, Storytelling, Web scraping,
+          Critical Thinking, Time Management, Teamwork, Creativity
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>Work Experience</h2>
+        <p class="job-title">
+          Software Developer, Quest Global Services Pvt Ltd, India
+        </p>
+        <p class="job-duration">June 2021 – June 2022</p>
+        <ul>
+          <li>
+            Developed Hitachi Hi-Tech Defect Visualizer using React JS, MobX,
+            and Java Spring Boot, improving semiconductor wafer defect analysis
+            and data accuracy by 25%
+          </li>
+          <li>
+            Designed consistent UIs with Material UI, stored and queried data
+            efficiently with MongoDB, and created interactive visualizations
+            with Plotly JS and Pixi JS
+          </li>
+          <li>
+            Contributed to Agile Scrum practices, resulting in a 50% improvement
+            in sprint completion rates
+          </li>
+          <li>
+            Managed source code with GitLab and SVN and contributed to project
+            management with Azure DevOps
+          </li>
+          <li>
+            Enhanced software quality through code reviews and internal
+            documentation, reducing bug reports by 35%
+          </li>
+        </ul>
+
+        <p class="job-title">
+          Software Engineer, RM Education Solutions India Pvt Ltd, India
+        </p>
+        <p class="job-duration">July 2018 – Dec 2020</p>
+        <ul>
+          <li>
+            Developed RM Assessor 3, a scalable e-marking platform for
+            universities, using React-Flux, C#, .NET Core, and MS SQL Server,
+            streamlining the grading process
+          </li>
+          <li>
+            Maintained code quality using Microsoft Visual Studio, decreasing
+            code review turnaround time by 20%
+          </li>
+          <li>
+            Developed RM Assessor Data Manager, optimizing data processing and
+            ensuring accuracy with React-Flux, C#, .NET, and MS SQL Server
+          </li>
+          <li>
+            Managed data integration with SSIS and SSAS, improving
+            decision-making and data processing efficiency
+          </li>
+          <li>
+            Utilized Azure DevOps for project management and version control,
+            enhancing team coordination and efficiency by 35%
+          </li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Education & Certifications</h2>
+        <ul>
+          <li><strong>Microsoft Azure AI-900 Certificate</strong> – 2025</li>
+          <li>
+            <strong>IBM Data Analyst Professional Certificate</strong>, NPower
+            Canada – 2025
+          </li>
+          <li>
+            <strong>Women in Technology Program</strong>, ACCES Employment, IBM
+            / TD Bank – 2024
+          </li>
+          <li>
+            <strong>The Complete 2024 Web Development Bootcamp</strong>, Udemy –
+            2024
+          </li>
+          <li>
+            <strong
+              >Bachelor of Technology in Computer Science and
+              Engineering</strong
+            >, Mahatma Gandhi University, India – 2018
+          </li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>
